@@ -1,0 +1,151 @@
+
+body {
+  overflow-x: hidden;
+}
+html, body {
+  height: 100%;
+  width: auto;
+  padding:0;
+  margin:0;
+
+}
+.btn-xs {
+  height: 28px;
+  width: 75px;
+  margin: 10px 20px;
+
+}
+.btn-med{
+  margin: 10px;
+
+}
+.topnav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.object {
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0;
+  margin:0; 
+  font-size: 0;
+  padding-top: 40px;
+}
+.one {
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2083ac25c436a62c05695ea6a8f60282); 
+  font-size: 1.5rem;
+  text-align: center;
+  color: #e7e7e7;
+}
+.two {
+  background-image: url(https://images.unsplash.com/photo-1439074216907-51e7025705db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f0365446a49058614a9ff5263e9c638d);
+  font-size: 1.6rem;
+  text-align: left;
+  color: #e6e6e6;
+}
+.three {
+  background-image: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=4b74433d714284e49de7f8a93fb52d88);
+  font-size: 2rem;
+  
+  color: #e6e6e6;
+  
+}
+.four {
+  background-image: url(https://images.unsplash.com/reserve/6HJtLkJSDqjqlE2NipEu_macbook.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=e2f51aaaceadfabf2b31f419cdebdb8b);
+  font-size: 2rem;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 100px
+}
+.text {
+  margin: 100px 0 10px 0;
+  display: inline-block;
+  padding: 30px;
+}
+
+#heading {
+
+  text-align: center;
+}
+
+
+img {
+  
+  height: 250px;
+  width: 250px;
+}
+#projects {
+  text-align: center;
+}
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+ 
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+ 
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+
+
+
+
+
+

@@ -140,13 +140,13 @@ iframe {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
  
-
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
- 
+}
 /* Large desktop */
 @media (min-width: 1200px) {
-  
+}  
 
 
 
